@@ -13,7 +13,7 @@ import qualified Data.Configurator as C
 import qualified Data.Configurator.Types as CT
 
 type Port = Int
-data MyConfig = MyConfig { hcPort :: Port
+data MyConfig = MyConfig { hcPort :: Port 
                          , hcEnvironment :: Environment 
                          }
 
